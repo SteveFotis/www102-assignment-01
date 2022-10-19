@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home Page</title>
+        <meta name="description" content="Steve's-Sushi">
+        <meta name="keywords" content="sushi, restaurant, seafood">
+        <meta name="author" content="Steve Fotinakopoulos">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/styles.css">
+        
+    </head>
+
+
+    <body>
+            <header>
+                <nav>
+                    <ul class="heading"> <!--I used a flex boxs for the nav to line everything up here rather than just using inline-block elements, repeated on each page-->
+                        <li class="head1"><a href="homepage.html"><img src="img/stevesushilogo.png" alt="sushilogo" width="250" height="175"></a></li>
+                            <li class="head head2"><a href="menu.html">Menu</a></li>
+                            <li class="head head3"><a href="about.html">About Us</a></li>
+                            <li class="head head4"><a href="rationale.html">Rationale</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main>
+                <div class="homepage"> <!--The main content on the home page is also a flex box used here-->
+                    <h1>Welcome</h1>
+                    <h2>Please check out our Menu!</h2>
+                    <a href="menu.html">Menu</a>
+                    <h2>Call for Delivery 647-555-5555</h2>
+                </div>
+            </main>
+
+            <footer>
+                <div class="footer"> <!--I created the footer using a flex box spanning the full page and centered the content inside it, also repeated on each page-->
+                    <small>&copy; Copyright Steve-Sushi Inc. 2022</small>
+                </div>
+            </footer>
+
+        
+    </body>
+
+</html>
+
+<!-- Ran all pages through the validator at https://validator.w3.org/#validate_by_input, no issues where found-->
